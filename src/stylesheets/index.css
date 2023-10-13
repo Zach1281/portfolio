@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Prociono&family=Thasadith:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+:root {
+  --alabaster: #faf9f9;
+  --topaz: #797685;
+  --manatee: #8e8a9a;
+  --dolphin: #6d687d;
+  --baltic-sea: #19171d;
+
+  background-color: var(--baltic-sea);
+  color: var(--alabaster);
+}
+
+#root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* --font-crimson: "Crimson Text", serif;
+  --font-chakra: "Chakra Petch", serif;
+  --font-prociono: "Prociono", serif;
+  --font-thasadith: "Thasadith", serif; */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Crimson Text", serif;
+}

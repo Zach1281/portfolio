@@ -1,0 +1,30 @@
+.about-me {
+  background-color: var(--dolphin);
+  display: flex;
+  flex-direction: column;
+}
+
+.title-picture-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.desc {
+  grid-area: span 2;
+  display: flex;
+  justify-content: center;
+  max-width: 40vw;
+  align-self: center;
+  font-size: 1.5rem;
+}
+
+.big {
+  font-weight: 600;
+  font-size: 1.1em;
+}
