@@ -1,0 +1,18 @@
+.zach-container {
+  padding: 1rem;
+}
+
+.socials {
+  gap: 1rem;
+  text-align: center;
+}
+
+.icons {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.socials img {
+  max-width: 3rem;
+}

@@ -1,12 +1,23 @@
+import "./stylesheets/ColdFluMap.css";
+
 function ColdFluMap() {
   return (
     <>
-      <div className="proj">
-        <div className="proj-img">
-          <img src="#" alt="Cold Flu Map Image" />
+      <div className="proj cold">
+        <div className="proj-title cold">
+          <h1>Cold and Flu Map Hotspots</h1>
         </div>
-        <div className="proj-title">Cold and Flu NLP Map Hotspots</div>
-        <div className="proj-desc">stuff about map</div>
+        <div className="proj-img cold">
+          <a
+            href="https://info172.vercel.app/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img src="../public/info172.png" alt="Cold Flu Map Image" />
+          </a>
+        </div>
+
+        <div className="proj-desc cold">stuff about map</div>
       </div>
     </>
   );

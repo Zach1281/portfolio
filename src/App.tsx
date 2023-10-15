@@ -6,7 +6,9 @@ function App() {
   return (
     <>
       <Nav />
-      <AboutMe />
+      <main>
+        <AboutMe />
+      </main>
     </>
   );
 }

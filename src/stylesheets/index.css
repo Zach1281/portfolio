@@ -1,24 +1,50 @@
 @import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Prociono&family=Thasadith:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 :root {
-  --alabaster: #faf9f9;
-  --topaz: #797685;
-  --manatee: #8e8a9a;
-  --dolphin: #6d687d;
-  --baltic-sea: #19171d;
+  --dark-background: #232946;
+  --dark-headline: #fffffe;
+  --dark-paragraph: #b8c1ec;
+  --dark-button: #eebbc3;
+  --dark-button-text: #232946;
+  --dark-cardbackground: #fffffe;
+  --dark-cardheadline: #232946;
+  --dark-cardparagraph: #232946;
+  --dark-cardtag-bg: #232946;
+  --dark-cardtag-txt: #b8c1ec;
+  --dark-cardhighlight: #d4939d;
+  --dark-link: #eebbc3;
 
-  background-color: var(--baltic-sea);
-  color: var(--alabaster);
+  --light-background: #d4d8f0;
+  --light-headline: #232946;
+  --light-subheadline: #232946;
+  --light-cardbackground: #fffffe;
+  --light-cardheading: #232946;
+  --light-cardparagraph: #232946;
+
+  --salmon-background: #eebbc3;
+  --s-headline: #232946;
+  --s-paragraph: #232946;
+  --s-link: #232946;
+
+  --stroke: #121629;
+  --main: #b8c1ec;
+  --secondary: #fffffe;
+  --tertiary: #eebbc3;
+  --highlight: #eebbc3;
 }
 
 #root {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* --font-crimson: "Crimson Text", serif;
-  --font-chakra: "Chakra Petch", serif;
-  --font-prociono: "Prociono", serif;
-  --font-thasadith: "Thasadith", serif; */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -26,4 +52,45 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Crimson Text", serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 1);
+  background-color: var(--light-background);
+  color: var(--light-headline);
+}
+
+main {
+  background-color: var(--dark-background);
+  flex-grow: 1;
+  color: var(--dark-headline);
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--light-background);
+  color: var(--light-headline);
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: var(--s-link);
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  padding: 1rem;
 }

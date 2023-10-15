@@ -1,0 +1,18 @@
+.proj-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.proj {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.proj-title {
+}
+
+.proj-img img {
+  max-width: 35vw;
+}

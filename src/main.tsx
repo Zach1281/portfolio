@@ -6,6 +6,7 @@ import Projects from "./Projects.tsx";
 import Contact from "./Contact.tsx";
 import NoPage from "./NoPage.tsx";
 import "./stylesheets/index.css";
+import Footer from "./Footer.tsx";
 
 const router = createBrowserRouter([
   {
@@ -29,5 +30,6 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <RouterProvider router={router} />
+    <Footer />
   </React.StrictMode>
 );

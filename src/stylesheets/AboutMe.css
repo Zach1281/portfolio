@@ -4,22 +4,18 @@
   flex-direction: column;
 }
 
-.title-picture-container {
+.title {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 2rem;
-}
-
-.title {
   font-size: 2rem;
 }
 
 .desc {
-  grid-area: span 2;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  max-width: 40vw;
   align-self: center;
   font-size: 1.5rem;
 }
@@ -27,4 +23,26 @@
 .big {
   font-weight: 600;
   font-size: 1.1em;
+}
+
+.project-button {
+  text-align: center;
+  padding: 3rem;
+}
+
+.project-button button {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1.1rem;
+  padding-bottom: 1.1rem;
+  font-size: 2rem;
+  background-color: var(--baltic-sea);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: var(--alabaster);
+}
+
+.project-button button:hover {
+  cursor: pointer;
 }
