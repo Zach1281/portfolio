@@ -17,7 +17,17 @@ function ColdFluMap() {
           </a>
         </div>
 
-        <div className="proj-desc cold">stuff about map</div>
+        <div className="proj-desc cold">
+          This project was aimed at providing researchers/doctors the ability to
+          understand which areas of the United States may be facing higher rates
+          of repiratory diseases. It focused on understanding
+          <span className="card-highlight">
+            {" "}
+            Natural Language Processing
+          </span>{" "}
+          to analyze tweets and determine if they were sick depending on what
+          was said in the tweet.
+        </div>
       </div>
     </>
   );

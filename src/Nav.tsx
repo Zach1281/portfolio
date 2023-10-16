@@ -19,15 +19,13 @@ function Nav() {
         <nav>
           <ul>
             <li>
-              <Link to="/">about</Link>
-              {/* <a href="/">about</a> */}
+              <Link to="/">About</Link>
             </li>
             <li>
-              <Link to="/projects">projects</Link>
-              {/* <a href="projects">projects</a> */}
+              <Link to="/projects">Projects</Link>
             </li>
             <li>
-              <Link to="/contact">contact</Link>
+              <Link to="/contact">Contact</Link>
             </li>
           </ul>
         </nav>

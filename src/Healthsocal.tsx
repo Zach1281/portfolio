@@ -19,7 +19,18 @@ function Healthsocal() {
             />
           </a>
         </div>
-        <div className="proj-desc health">stuff about healthsocal</div>
+        <div className="proj-desc health">
+          <p>
+            <span className="card-highlight">Healthsocal</span> is a project
+            designed to combat the mental health issues in Orange County. This
+            is done through providing a{" "}
+            <span className="card-highlight">Choropleth Map</span> of the
+            county. By comparing the aspect of the Social Determinants of Health
+            and the Mental Health Index of each zip code, the project aimed to
+            provide a accessible way for someone to understand the struggles
+            someone might be facing depending on where they lived.
+          </p>
+        </div>
       </div>
     </>
   );

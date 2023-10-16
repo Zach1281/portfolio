@@ -6,12 +6,11 @@ function AboutMe() {
     <>
       <div className="about-me">
         <div className="title">
-          <h1>Hi I'm Zachary Romero</h1>
-          <h2></h2>
+          <h1>Hello, I'm Zachary Romero</h1>
         </div>
         <div className="desc">
           <p>
-            <span className="big">SOFTWARE DEVELOPER</span> persuing a career in
+            <span className="big">SOFTWARE DEVELOPER</span> pursuing a career in
             backend development.
           </p>
           <p>

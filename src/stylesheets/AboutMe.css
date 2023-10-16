@@ -2,6 +2,10 @@
   background-color: var(--dolphin);
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  height: 100%;
 }
 
 .title {
@@ -18,11 +22,14 @@
   justify-content: center;
   align-self: center;
   font-size: 1.5rem;
+  color: var(--dark-paragraph);
+  padding-bottom: 5rem;
 }
 
 .big {
   font-weight: 600;
   font-size: 1.1em;
+  color: var(--dark-cardhighlight);
 }
 
 .project-button {
@@ -36,13 +43,17 @@
   padding-top: 1.1rem;
   padding-bottom: 1.1rem;
   font-size: 2rem;
-  background-color: var(--baltic-sea);
+  background-color: var(--dark-button);
   border: none;
   border-radius: 15px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  color: var(--alabaster);
+  color: var(--dark-button-text);
 }
 
 .project-button button:hover {
   cursor: pointer;
+}
+
+p:nth-child(2) {
+  margin-left: 1rem;
 }

@@ -8,7 +8,9 @@ function Footer() {
           <div className="name">
             <h1>Zachary Romero</h1>
           </div>
-          <div className="desc">Software Developer</div>
+          <div className="job-title">
+            <p>Software Developer</p>
+          </div>
         </div>
         <div className="socials">
           <div className="icons">
@@ -30,7 +32,7 @@ function Footer() {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <img src="../public/github-mark/github-mark.png" alt="" />
+                <img src="../public/github.svg" alt="" />
               </a>
             </div>
           </div>

@@ -1,6 +1,8 @@
 .proj-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  padding: 1rem;
 }
 
 .proj {
@@ -8,11 +10,26 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 1.5rem;
+  background-color: var(--dark-cardbackground);
+  border-radius: 3px;
+  padding: 1rem;
 }
 
 .proj-title {
+  color: var(--dark-cardheadline);
+}
+
+.proj-desc {
+  color: var(--dark-cardparagraph);
 }
 
 .proj-img img {
   max-width: 35vw;
+}
+
+.card-highlight {
+  color: var(--dark-cardhighlight);
+  font-size: 1.2rem;
+  font-weight: 600;
 }

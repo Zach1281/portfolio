@@ -5,7 +5,14 @@ function Contact() {
   return (
     <>
       <Nav />
-      <h1>Contact Me</h1>
+      <main>
+        <div className="contact-me">
+          <div className="title contact">
+            <h1>Reach Out</h1>
+          </div>
+          <form action="POST"></form>
+        </div>
+      </main>
     </>
   );
 }
