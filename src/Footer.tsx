@@ -20,10 +20,7 @@ function Footer() {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <img
-                  src="../public/linkedin-square-logo.svg"
-                  alt="LinkedIn Logo"
-                />
+                <img src="../linkedin-square-logo.svg" alt="LinkedIn Logo" />
               </a>
             </div>
             <div className="github">
@@ -32,7 +29,7 @@ function Footer() {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <img src="../public/github.svg" alt="" />
+                <img src="../github.svg" alt="" />
               </a>
             </div>
           </div>
