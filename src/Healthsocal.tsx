@@ -13,10 +13,7 @@ function Healthsocal() {
             rel="noopener noreferrer"
             target="_blank"
           >
-            <img
-              src="../public/healthsocal.png"
-              alt="Healthsocal Project Image"
-            />
+            <img src="../healthsocal.png" alt="Healthsocal Project Image" />
           </a>
         </div>
         <div className="proj-desc health">

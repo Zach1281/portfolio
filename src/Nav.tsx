@@ -7,10 +7,7 @@ function Nav() {
       <header>
         <div className="name-and-pic">
           <div className="profile-photo">
-            <img
-              src="../public/zr_profile_cropped.jpg"
-              alt="Zachary Romero Profile"
-            />
+            <img src="../zr_profile_cropped.jpg" alt="Zachary Romero Profile" />
           </div>
           <div className="name">
             <h1>Zachary Romero</h1>

@@ -13,7 +13,7 @@ function ColdFluMap() {
             rel="noopener noreferrer"
             target="_blank"
           >
-            <img src="../public/info172.png" alt="Cold Flu Map Image" />
+            <img src="../info172.png" alt="Cold Flu Map Image" />
           </a>
         </div>
 
