@@ -1,10 +1,10 @@
 import "./stylesheets/Nav.css";
 import { Link } from "react-router-dom";
-import { useState } from "react";
-import Hamburger from "./Hamburger";
+// import { useState } from "react";
+// import Hamburger from "./Hamburger";
 
 function Nav() {
-  const [hambugerOpen, setHamburgerOpen] = useState(false);
+  // const [hambugerOpen, setHamburgerOpen] = useState(false);
   return (
     <>
       <header>
