@@ -67,6 +67,8 @@ header {
   box-shadow: 0 -2px 10px rgba(0, 0, 0, 1);
   background-color: var(--dark-background);
   color: var(--dark-headline);
+  position: relative;
+  z-index: 10;
 }
 
 main {
@@ -81,6 +83,23 @@ footer {
   align-items: center;
   background-color: var(--light-background);
   color: var(--light-headline);
+}
+
+form {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input[type="text"],
+input[type="email"] {
+  font-size: 1.2rem;
+}
+
+textarea {
+  font-size: 1rem;
+  padding: 0.3rem;
+  overflow: hidden;
 }
 
 a {
@@ -104,4 +123,76 @@ ul {
 
 nav {
   padding: 1rem;
+}
+
+@media (max-width: 767px) {
+  header {
+    display: block;
+  }
+
+  main {
+    padding: 1rem;
+  }
+
+  .name-and-pic {
+    text-align: justify;
+    padding: 1rem 0 0;
+  }
+
+  .name {
+    font-size: 0.9rem;
+  }
+
+  .navigation {
+    padding: 0;
+  }
+
+  .title {
+    font-size: 0.9rem;
+  }
+
+  .desc {
+    padding: 0.3rem;
+  }
+
+  .desc p {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+
+  .project-button {
+    padding: 0 3rem 3rem;
+  }
+
+  .contact-me {
+    display: block;
+  }
+
+  .contact {
+    display: block;
+  }
+
+  .title.contact-me {
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0 0;
+  }
+
+  .proj-container {
+    display: block;
+  }
+
+  .proj {
+    margin: 1rem;
+  }
+
+  .proj-desc {
+    text-align: center;
+  }
 }

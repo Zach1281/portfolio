@@ -1,5 +1,6 @@
 import "./stylesheets/Contact.css";
 import Nav from "./Nav";
+import Form from "./Form";
 
 function Contact() {
   return (
@@ -7,10 +8,10 @@ function Contact() {
       <Nav />
       <main>
         <div className="contact-me">
-          <div className="title contact">
+          <div className="title contact-me">
             <h1>Reach Out</h1>
           </div>
-          <form action="POST"></form>
+          <Form />
         </div>
       </main>
     </>

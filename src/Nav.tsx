@@ -1,7 +1,10 @@
 import "./stylesheets/Nav.css";
-import { Link, Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
+import { useState } from "react";
+import Hamburger from "./Hamburger";
 
 function Nav() {
+  const [hambugerOpen, setHamburgerOpen] = useState(false);
   return (
     <>
       <header>
@@ -14,7 +17,8 @@ function Nav() {
           </div>
         </div>
         <nav>
-          <ul>
+          {/* <Hamburger /> */}
+          <ul className="navigation">
             <li>
               <Link to="/">About</Link>
             </li>
@@ -27,8 +31,6 @@ function Nav() {
           </ul>
         </nav>
       </header>
-
-      <Outlet />
     </>
   );
 }
