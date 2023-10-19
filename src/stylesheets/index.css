@@ -178,12 +178,6 @@ nav {
     padding: 1rem;
   }
 
-  .button-container {
-    display: flex;
-    justify-content: center;
-    padding: 1rem 0 0;
-  }
-
   .proj-container {
     display: block;
   }
