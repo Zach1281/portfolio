@@ -5,6 +5,7 @@ import App from "./App.tsx";
 import Projects from "./Projects.tsx";
 import Contact from "./Contact.tsx";
 import NoPage from "./NoPage.tsx";
+import AboutMe from "./AboutMe.tsx";
 import "./stylesheets/index.css";
 import Footer from "./Footer.tsx";
 
@@ -12,6 +13,10 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+  },
+  {
+    path: "/about",
+    element: <AboutMe />,
   },
   {
     path: "/projects",

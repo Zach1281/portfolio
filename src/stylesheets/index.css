@@ -132,6 +132,7 @@ nav {
 
   main {
     padding: 1rem;
+    display: block;
   }
 
   .name-and-pic {
@@ -165,18 +166,31 @@ nav {
     padding: 0 3rem 3rem;
   }
 
-  /* .contact-me {
-    display: block;
-  }
-
-  .contact {
-    display: block;
+  .contact-me {
+    gap: 0;
   }
 
   .title.contact-me {
     text-align: center;
     padding: 1rem;
-  } */
+    font-size: 1.3rem;
+  }
+
+  .about-container {
+    display: block;
+  }
+
+  .about-desc {
+    text-align: center;
+  }
+
+  .skills {
+    flex-wrap: wrap;
+  }
+
+  .card {
+    margin: 1rem;
+  }
 
   .proj-container {
     display: block;

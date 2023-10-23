@@ -1,59 +1,31 @@
-.about-me {
-  background-color: var(--dolphin);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
-  height: 100%;
+.about-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  padding: 1rem;
 }
 
-.title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-  font-size: 2rem;
-}
-
-.desc {
+.card {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-self: center;
-  font-size: 1.5rem;
-  color: var(--dark-paragraph);
-  padding-bottom: 5rem;
+  align-items: center;
+  gap: 1.5rem;
+  background-color: var(--dark-cardbackground);
+  border-radius: 3px;
+  padding: 1rem;
+  max-width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.big {
-  font-weight: 600;
-  font-size: 1.1em;
+.card-highlight {
   color: var(--dark-cardhighlight);
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
-.project-button {
-  text-align: center;
-  padding: 3rem;
-}
-
-.project-button button {
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-top: 1.1rem;
-  padding-bottom: 1.1rem;
-  font-size: 2rem;
-  background-color: var(--dark-button);
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  color: var(--dark-button-text);
-}
-
-.project-button button:hover {
-  cursor: pointer;
-}
-
-p:nth-child(2) {
-  margin-left: 1rem;
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

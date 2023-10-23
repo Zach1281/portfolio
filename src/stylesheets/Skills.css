@@ -1,0 +1,35 @@
+.card.skills {
+  gap: 0;
+}
+
+.skills-title {
+  color: var(--dark-cardheadline);
+}
+
+.skills-list {
+  padding: 0.2rem;
+}
+
+.skill {
+  padding: 0.5rem;
+  background-color: var(--dark-cardtag-bg);
+  color: var(--dark-cardtag-txt);
+  font-size: 1.2rem;
+  border-radius: 2px;
+  text-align: center;
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.subtitle {
+  color: var(--dark-cardheadline);
+  text-align: center;
+}
+
+.skills {
+  display: flex;
+  gap: 0.2rem;
+  justify-content: center;
+  align-items: center;
+}

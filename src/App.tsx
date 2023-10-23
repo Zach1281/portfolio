@@ -1,5 +1,5 @@
 import "./stylesheets/App.css";
-import AboutMe from "./AboutMe";
+import Home from "./Home";
 import Nav from "./Nav";
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <>
       <Nav />
       <main>
-        <AboutMe />
+        <Home />
       </main>
     </>
   );

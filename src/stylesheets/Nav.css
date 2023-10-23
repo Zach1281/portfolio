@@ -7,8 +7,8 @@
 }
 
 .profile-photo {
-  max-width: 100px;
-  max-height: 100px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -17,4 +17,15 @@
   width: 100%;
   display: block;
   image-rendering: crisp-edges;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.home-link {
+  color: var(--dark-headline);
+  font-size: 1rem;
+}
+
+.home-link a {
+  font-size: 16px;
 }

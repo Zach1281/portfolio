@@ -12,15 +12,17 @@ function Nav() {
           <div className="profile-photo">
             <img src="../zr_profile_cropped.jpg" alt="Zachary Romero Profile" />
           </div>
-          <div className="name">
-            <h1>Zachary Romero</h1>
-          </div>
+          <Link to="/" className="home-link">
+            <div className="name">
+              <h1>Zachary Romero</h1>
+            </div>
+          </Link>
         </div>
         <nav>
           {/* <Hamburger /> */}
           <ul className="navigation">
             <li>
-              <Link to="/">About</Link>
+              <Link to="/about">About</Link>
             </li>
             <li>
               <Link to="/projects">Projects</Link>
