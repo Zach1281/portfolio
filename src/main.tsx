@@ -8,6 +8,7 @@ import NoPage from "./NoPage.tsx";
 import AboutMe from "./AboutMe.tsx";
 import "./stylesheets/index.css";
 import Footer from "./Footer.tsx";
+import { Analytics } from "@vercel/analytics/react";
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,7 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <RouterProvider router={router} />
+    <Analytics />
     <Footer />
   </React.StrictMode>
 );
